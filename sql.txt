@@ -1,0 +1,20 @@
+Slide 1: Introduction to Databases
+
+SQL databases use Structured Query Language (SQL) to manage relational data, storing information in tables with predefined schemas. Examples include MySQL and PostgreSQL, making them ideal for structured data with clear relationships. On the other hand, MongoDB, a NoSQL database, is non-relational and document-based, storing data in flexible JSON-like documents. This makes MongoDB well-suited for rapidly changing data, real-time analytics, and social media.
+
+Slide 2: Data Structure
+
+SQL databases follow a fixed schema, organizing data in rows and columns while supporting relationships through foreign keys. This structure is ideal for relational data. In contrast, MongoDB uses schema-less, flexible documents that store key-value pairs and can embed related data, simplifying the storage and retrieval of complex information.
+
+Slide 3: Query Language
+
+SQL databases rely on SQL for querying, enabling operations like joins to combine data from multiple tables. For example: SELECT * FROM users WHERE age > 30;. MongoDB employs JSON-like queries and provides an aggregation framework for advanced operations. An example query in MongoDB is { age: { $gt: 30 } }, demonstrating its simplicity and flexibility.
+
+Slide 4: Scalability
+
+SQL databases typically scale vertically by adding resources like CPU or RAM, but horizontal scaling is more complex. They ensure strong data consistency, making them reliable for transactional systems. MongoDB, designed for horizontal scaling, distributes data across servers using sharding. It prioritizes availability and performance, making it highly scalable and efficient for distributed systems.
+
+Slide 5: Use Cases and Conclusion
+
+SQL databases are well-suited for financial systems and e-commerce platforms where structured and consistent data is essential. MongoDB excels in scenarios requiring flexibility, such as social media and content management. In conclusion, SQL is best for structured data and complex relationships, while MongoDB is ideal for projects needing scalability and adaptability. The choice depends on the specific requirements of the project.
+
